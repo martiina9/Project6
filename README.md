@@ -25,7 +25,7 @@ Testy jsou napsané v **Pythonu** pomocí knihoven **Playwright** a **Pytest** a
 | `test_playwright_submenu` | Najde a rozbalí submenu "Playwright Test", zkontroluje první položku, přes logo se vrátí na hlavní stránku |   
 
 
-Byli vyžadované 3 automatické testy - 2 přidané navíc pro lepší ukázku práce s Playwright (jednoduché i složitější)
+Byli požadované 3 automatické testy - 2 přidané navíc pro lepší ukázku práce s Playwright (jednoduché i složitější)
 
 ---
 
