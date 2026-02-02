@@ -1,6 +1,6 @@
-# 🧪 Automatické testy – Playwright & Pytest
+# 🧪 Automatizované testy – Playwright & Pytest
 
-Tento repozitář obsahuje **automatické end-to-end testy** webové stránky  🌐 [Playwright](https://playwright.dev)
+Tento repozitář obsahuje **automatizované end-to-end testy** webové stránky  🌐 [Playwright](https://playwright.dev)
 
 Testy jsou napsané v **Pythonu** pomocí knihoven **Playwright** a **Pytest** a slouží jako ukázka základního automatizovaného testování webových aplikací.
 
@@ -25,7 +25,7 @@ Testy jsou napsané v **Pythonu** pomocí knihoven **Playwright** a **Pytest** a
 | `test_playwright_submenu` | Najde a rozbalí submenu "Playwright Test", zkontroluje první položku, přes logo se vrátí na hlavní stránku |   
 
 
-Byli požadované 3 automatické testy - 2 přidané navíc pro lepší ukázku práce s Playwright (jednoduché i složitější)
+Byli požadované 3 automatizované testy - 2 přidané navíc pro lepší ukázku práce s Playwright (jednoduché i složitější)
 
 ---
 
