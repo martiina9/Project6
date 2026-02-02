@@ -12,20 +12,19 @@ Automatizované UI testy pro [Playwright](https://playwright.dev/) dokumentaci p
 |------|-------|
 | `test_title` | Ověří, že titulek stránky obsahuje "Playwright" | 
 | `test_get_started` | Klikne na "Get Started" a přejde na úvodní stránku dokumentace |
-| `test_search_shows_results` | Vyhledá "locators" a ověří, že jsou výsledky | 
+| `test_search_shows_results` | Vyhledá "locators" a ověří, že výsledky obsahují slovo "locators" | 
 | `test_theme_choice` | Přepne téma stránky mezi dark/light a ověří změnu | 
-| `test_playwright_submenu` | Rozbalí submenu "Playwright Test" a zkontroluje první položku | 
-| `test_logo_navigation` | Klikne na logo "Playwright" a vrátí se na hlavní stránku | 
+| `test_playwright_submenu` | Najde a rozbalí submenu "Playwright Test", zkontroluje první položku, přes logo se vrátí na hlavní stránku | 
+ 
 
 ---
 
 ## 🚀 Jak spustit testy
 
-1. Otevři projekt v IDE podporující Python a Playwright (např. VS Code).  
-2. Ujisti se, že máš nainstalovaný **Python**, **pytest** a **Playwright**.  
-3. Spusť testy přímo z IDE nebo přes GitHub Actions:  
-   - Testy ověřují navigaci, vyhledávání, submenu a přepínání témat.  
-4. Výsledky testů se zobrazí přímo v konzoli nebo v GitHub Actions workflow.
+1
+   - Testy ověřují navigaci, vyhledávání, submenu a přepínání témat.
+     
+6. Výsledky testů se zobrazí přímo v konzoli nebo v GitHub Actions workflow.
 
 ---
 
