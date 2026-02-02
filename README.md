@@ -45,6 +45,11 @@ pip install pytest playwright
 playwright install
 ```
 ### 4️⃣ Naimportuj knihovny 
+```
+import pytest
+from playwright.sync_api import sync_playwright, Page, expect
+import re
+```
 ### 4️⃣ Spuštění testů
 
 - Testy se spouštějí přímo v termináli
